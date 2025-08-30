@@ -1,0 +1,5 @@
+services:
+  kraken:
+    build: .
+    restart: unless-stopped
+    container_name: kraken
